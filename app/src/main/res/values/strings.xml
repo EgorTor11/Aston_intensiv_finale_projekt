@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Aston_intensiv_finale_projekt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_detali_toast">Не возможно загрузить детали</string>
+    <string name="default_error_message">ERROR!!!</string>
+    <string name="species_title">species</string>
+    <string name="gender_title">gender</string>
+    <string name="status_title">status</string>
+    <string name="origin_title">origin:</string>
+    <string name="location_title">location:</string>
+    <string name="search_by_name_hint">search by name</string>
+    <string name="filter_title">filter</string>
+    <string name="search_by_species_hint">search by species</string>
+    <string name="alive">alive</string>
+    <string name="dead">dead</string>
+    <string name="unknown">unknown</string>
+    <string name="female">female</string>
+    <string name="male">male</string>
+    <string name="genderless">genderless</string>
+    <string name="confirm">confirm</string>
+    <string name="search_by_episode_hint">search by episode</string>
+    <string name="search_by_type_hint">search by type</string>
+    <string name="search_by_dimension_hint">search by dimension</string>
+    <string name="type">type:</string>
+    <string name="dimension">dimension:</string>
+    <string name="characters_menu_title">characters</string>
+    <string name="locations_menu_title">locations</string>
+    <string name="episodes_menu_title">episodes</string>
+</resources>

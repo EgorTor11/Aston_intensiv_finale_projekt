@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="4dp"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="12dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
+    app:contentPadding="8dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/tvNameEpisode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Pilot" />
+
+
+        <TextView
+            android:id="@+id/tvAirDate"
+            style="style/DefaultTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/tvEpisodeCode"
+            app:layout_constraintTop_toBottomOf="@+id/tvEpisodeCode"
+            tools:text="12 mart 1998" />
+
+        <TextView
+            android:id="@+id/tvEpisodeCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/tvNameEpisode"
+            app:layout_constraintTop_toBottomOf="@+id/tvNameEpisode"
+            tools:text="S01E01"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout></com.google.android.material.card.MaterialCardView>
